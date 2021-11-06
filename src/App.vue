@@ -1,7 +1,12 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/teachers">teachers</router-link>  |
+    <router-link to="/students">students</router-link>|
+    <router-link to="/eachone">eachone</router-link>|
+    <router-link to="/products">products</router-link>|
+    <router-link to="/login">Login</router-link>|
+    <router-link to="/register">Register</router-link>|
   </div>
   <router-view/>
 </template>
@@ -22,9 +27,10 @@
 #nav a {
   font-weight: bold;
   color: #2c3e50;
+  padding: 5px;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #10e669;
 }
 </style>
